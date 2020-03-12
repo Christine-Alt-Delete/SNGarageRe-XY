@@ -46,8 +46,8 @@ double USS::measureDistanceCM(bool printDist)
   // Calculating the distance
   double dist = duration*0.034/2;
 
- // if(printDist)
- //   printDouble(dist,100);
+  if(printDist)
+    printDouble(dist,100);
   return dist;
 }
 
@@ -61,8 +61,8 @@ double USS::measureDistanceMM(bool printDist)
   // Calculating the distance
   double dist = duration*0.34/2;
 
-  //if(printDist)
-  //  printDouble(dist,100);
+  if(printDist)
+    printDouble(dist,100);
   return dist;
 }
 
